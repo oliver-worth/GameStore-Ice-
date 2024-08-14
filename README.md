@@ -21,7 +21,7 @@ The dataset contains information on video game sales, user and expert reviews, g
 The primary objective is to forecast game sales for the year 2017, using data from previous years, with a focus on:
 
 1. Understanding the key factors that drive video game sales across different regions.
-2. Identifying potential blockbuster games for planning future marketing campaigns.
+2. To forecast potential trends in the gaming market for 2017, focusing on game genres, platforms, and ratings.
 
 ## Tools and Libraries
 The following libraries were used in this project:
@@ -42,7 +42,38 @@ The following libraries were used in this project:
 - The analysis revealed key insights into the influence of platform, genre, and ratings on sales.
 - Statistical tests helped identify significant factors that can be leveraged for future game releases and marketing strategies.
 - The predictive model provided a reasonable forecast for 2017 sales, though there is room for improvement.
-## Future Work
-- Model Improvement: Further refinement of the predictive model using advanced techniques.
-- Feature Engineering: Creation of additional features to improve model accuracy.
-- Broader Dataset: Expanding the dataset to include more recent data and additional regions.
+
+# Analyzed Data and Key Findings 
+## Number of Games Released Over the Years
+- The peak year for game releases was 2008, with 1,427 games produced.
+- The lowest number of releases was in 1980, with only 9 games produced.
+## Sales Analysis by Platform
+- Platform Popularity Over Time: Analyzed the lifecycle of various platforms, showing that platforms typically remain relevant for about 7.6 years before sales drop to zero.
+- Top Platforms: DS and PS4 showed significant trends, with DS peaking in 2005 but declining post-2007, while PS4 continued to grow in sales through 2015.
+## Platform Lifecycle Distribution
+- Most platforms have a lifecycle of 10-11 years.
+- The market began to stabilize in 2012 after a significant drop in sales, making data from 2012-2016 most relevant for analysis.
+## Global Sales Trends (2012-2016)
+- PS4 and Xbox One are the only platforms with increasing sales as of 2015, while all other platforms show a decline.
+- A boxplot analysis revealed that median sales are relatively low across platforms, with significant outliers indicating that a few games achieve exceptionally high sales.
+## Correlation Between Reviews and Sales
+- User Scores: A weak correlation between user scores and sales (e.g., PS4 correlation of -0.03) suggests that user reviews do not strongly influence sales.
+- Critic Scores: A moderately positive correlation for PS4 and Xbox One (0.4) suggests critic reviews might have some impact on sales, although it is not definitive.
+## Genre Sales Analysis
+- Total Sales: Action games generated the most revenue, but this was skewed by the high number of releases.
+- Average Sales: Shooter games had the highest average sales per game, outperforming other genres.
+- Median Sales: Shooter games also had the highest median sales, reinforcing their profitability.
+## Regional Market Shares (2012-2016)
+- North America: Xbox platforms dominate with a 44.7% combined market share.
+- Europe: PlayStation platforms lead with a 49% combined market share.
+- Japan: The 3DS controls 45% of the market, with minimal presence of Xbox platforms.
+## ESRB Ratings and Regional Sales
+- North America and Europe: Rated M games have the highest sales, indicating a preference for mature content in these regions.
+- Japan: Rated E games perform better, with a much lower overall average sales compared to North America and Europe.
+## Hypothesis Testing
+- Xbox One vs PS4 User Ratings: No significant difference in average user ratings between the platforms.
+- Action vs Sports Genre Ratings: A statistically significant difference was found in user ratings, with Action games rated higher on average.
+## Conclusion and Recommendations
+- Platform Strategy: Focus on emerging platforms like PS4 and Xbox One for future marketing, as they show growing sales trends.
+- Genre Focus: Shooter games should be prioritized due to their higher average and median sales.
+- Regional Marketing: Tailor marketing strategies to regional preferences, emphasizing Rated M games in North America and Europe, and Rated E games in Japan.
