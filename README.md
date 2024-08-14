@@ -1,4 +1,7 @@
 # Ice Video Game Sales Analysis
+
+![Video Games](videogames.png)
+
 ## Project Overview
 This project is part of the Ice online store's initiative to analyze video game sales data. The goal is to identify patterns that predict whether a game will succeed or fail. By understanding these patterns, the company can make informed decisions about future advertising campaigns.
 
